@@ -1,0 +1,72 @@
+/* universal selector asterisk(*) */
+*{
+    background-color:silver;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* element selector */
+h1{
+    color: brown;
+   font-weight: bold;
+   font-style: italic;
+}
+/* id selector represent # */
+#login ,#signup{
+    color: greenyellow;
+    background-color: black;
+}
+/* class selector represent. */
+.post{
+    color: red;
+    background-color:white;
+
+}
+/* descendent selector */
+nav ul li{
+    color: brown;
+    font-style: oblique;
+}
+nav ul li a{
+    color: blueviolet;
+    text-decoration: none;
+}
+/* adjacent sibling combinator represent + */
+p+h3{
+    color: white;
+    background-color: black;
+    font-style: italic;
+}
+/* attributes selector */
+input[type="text"]{
+    color: black;
+    background-color: white;
+}
+input[type="password"]{
+    color: black;
+    background-color:rgb(152, 222, 47);
+}
+/* child combinator */
+p>a{
+    color: blueviolet;
+    text-decoration: none;
+}
+/* element selector */
+p{
+    font-weight: bold;
+    color: brown;
+}
+/* pseudoclass hover */
+a:hover{
+    color: black;
+    background-color: white;
+    text-decoration: green underline;
+}
+/* pseudoclass active */
+button:active{
+    color: greenyellow;
+    background-color: black;
+}
+/* pseudoclass checked */
+input[type="radio"]:checked+label{
+    color: red;
+   font-weight: bold;
+}
